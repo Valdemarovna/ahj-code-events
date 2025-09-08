@@ -19,6 +19,11 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
+  "homepage": "https://Valdemarovna.github.io/ahj-code-events",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
     "@babel/core": "^7.22.0",
     "@babel/preset-env": "^7.22.0",
